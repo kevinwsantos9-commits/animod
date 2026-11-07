@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.nivek.animated.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PlayerModelSmoothMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

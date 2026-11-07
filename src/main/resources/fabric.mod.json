@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "nivek_animated",
+  "version": "${version}",
+  "name": "NIVEK ANIMATED",
+  "description": "Animações suaves do jogador e a Lâmina Dourada Lendária. Complementa o resource pack NIVEK ANIMATED.",
+  "authors": [
+    "NIVEK"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nivek.animated.NivekAnimated"
+    ],
+    "client": [
+      "com.nivek.animated.client.NivekAnimatedClient"
+    ]
+  },
+  "mixins": [
+    "nivek_animated.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
